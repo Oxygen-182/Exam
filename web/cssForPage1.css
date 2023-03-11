@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(image/fon1.GIF);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1 {
+    font-family: 'Monotype Corsiva';
+    font-size: 24pt;
+    text-decoration: underline;
+    text-align: center;
+}
+
+img {
+    margin-left: 10%;
+    width: 360px;
+    height: 260px;
+}
+
+p {
+    display: block;
+    background-color: yellow;
+    width: 340px;
+    height: 240px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20pt;
+    border: 5px solid blue;
+    margin-left: 10%;
+}
+
+.container { 
+    display: flex; 
+    margin-top: 20px;
+}
